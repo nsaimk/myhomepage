@@ -1,0 +1,90 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+:root {
+    --nav-bg-clr: black;
+    --direction2: column;
+    --list: none;
+
+}
+
+
+
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
+
+h1 {
+  text-align:center;
+   font-size: 45px;
+  font-weight: 600;
+  }
+
+.c-site-header{
+    text-align:center;
+   font-size: 15px;
+  font-weight: 300;
+}
+
+.c-site-footer{
+      text-align:center;
+   font-size: 15px;
+  font-weight: 300;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+
+html, body {
+    font: 1em cursive;
+    box-sizing: border-box;
+    background-color: lightblue;
+    overflow-x: hidden;
+}
+
+
+
+#nav-bar {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--nav-bg-clr);
+    color: ;
+   
+}
+
+#nav-bar>ul {
+    list-style-type: var(--list);
+    display: flex;
+    justify-content: space-around;
+    width: 10%;
+}
+
+#nav-bar>ul>li {
+    flex: 1;
+    
+}
+
+#nav-logo {
+    flex-direction: var(--direction2);
+    flex: 3;
+}
