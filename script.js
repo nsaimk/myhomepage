@@ -1,3 +1,27 @@
+document.getElementById('red').addEventListener('click', (event) => {
+  let element_body = document.getElementById('body');
+  element_body.style.backgroundColor = '#ff0000';
+
+});
+
+document.getElementById('grey').addEventListener('click', (event) => {
+  let element_body2 = document.getElementById('body');
+  element_body2.style.backgroundColor = '#c0c0c0';
+
+});
+
+document.getElementById('green').addEventListener('click', (event) => {
+  let element_body3 = document.getElementById('body');
+  element_body3.style.backgroundColor = '#33cc00';
+
+});
+
+document.getElementById('purple').addEventListener('click', (event) => {
+  let element_body4 = document.getElementById('body');
+  element_body4.style.backgroundColor = '#cc33cc';
+
+});
+
 const {
   core: { test, expect, run },
   prettify
